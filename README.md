@@ -6,6 +6,12 @@ Author: Phuong Dai Ngo
 
 Github: https://github.com/daiphuongngo
 
+Language and Tool:
+
+- Python
+
+- Tableau
+
 # Overview
 
 This house price prediction in King County uses Keras deep learning package with Tensorflow backend running with GPU support. No major feature engineering has taken place in this project and as a result, the MAE predicted on the Test set is $483,250.
@@ -90,6 +96,35 @@ https://www.kaggle.com/ironfrown/deep-learning-house-price-prediction-keras?fbcl
 
     ##### E.12.2 Not scaled
 
+### Visualization:
+
+Bathrooms by Average Sales Price
+
+![Bathrooms by Average Sales Price](https://user-images.githubusercontent.com/70437668/138617762-6160be9e-7ad9-433d-952c-164f2b1ab001.jpg)
+
+Bedrooms by Average Sales Price
+
+![Bedrooms by Average Sales Price](https://user-images.githubusercontent.com/70437668/138617766-125889ea-e2c2-4df8-ab76-ddd8698acc52.jpg)
+
+Conditions by Average Sales Price
+
+![Conditions by Average Sales Price](https://user-images.githubusercontent.com/70437668/138617773-20c19bde-c2b9-477d-9e6d-50a91d0a74ab.jpg)
+
+Countplot - Bathrooms
+
+![Countplot - Bathrooms](https://user-images.githubusercontent.com/70437668/138617776-34aa097a-078b-4779-b605-3b21b5482e8c.jpg)
+
+Countplot - Bedrooms
+
+![Countplot - Bedrooms](https://user-images.githubusercontent.com/70437668/138617784-0bd5e8b8-95de-4762-a81e-588d20539ece.jpg)
+
+Countplot - Conditions
+
+![Countplot - Conditions](https://user-images.githubusercontent.com/70437668/138617790-22b0a18c-4cbc-4cb6-a82e-f861e641b77d.jpg)
+
+Countplot - Floors
+
+![Countplot - Floors](https://user-images.githubusercontent.com/70437668/138617794-1cc4ce0a-9ad2-404c-bad1-1a569726b6b4.jpg)
 
 
 
