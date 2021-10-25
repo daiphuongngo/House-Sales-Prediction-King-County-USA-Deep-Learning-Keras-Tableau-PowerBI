@@ -1,5 +1,7 @@
 # House Price Prediction - House Sales in King County, USA - Deep Learning (Keras)
 
+Category: Real Estate
+
 Dataset: https://www.kaggle.com/harlfoxem/housesalesprediction 
 
 Author: Phuong Dai Ngo
