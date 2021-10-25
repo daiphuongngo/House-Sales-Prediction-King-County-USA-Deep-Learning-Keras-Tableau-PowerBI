@@ -96,7 +96,7 @@ https://www.kaggle.com/ironfrown/deep-learning-house-price-prediction-keras?fbcl
 
     ##### E.12.2 Not scaled
 
-### Visualization:
+### Visualization in Tableau and Python:
 
 Bathrooms by Average Sales Price
 
@@ -126,6 +126,29 @@ Countplot - Floors
 
 ![Countplot - Floors](https://user-images.githubusercontent.com/70437668/138617794-1cc4ce0a-9ad2-404c-bad1-1a569726b6b4.jpg)
 
+Pearson Correlation Matrix
+
+![Pearson Correlation Matrix](https://user-images.githubusercontent.com/70437668/138619191-8016b599-daba-4e61-937b-9efc99362ac6.jpg)
+
+Distribution Plot of Year Built
+
+![Distribution Plot of Year Built](https://user-images.githubusercontent.com/70437668/138619199-89900f62-e349-40e0-8a2b-9e853366da7f.jpg)
+
+Dashboard - 3 charts of Price
+
+![Dashboard - 3 charts of Price](https://user-images.githubusercontent.com/70437668/138619204-1115a0fb-f9ac-4440-83ae-3d6a26c144f5.jpg)
+
+Boxplot - 'Price' & 'Index'
+
+![Boxplot - 'Price'   'Index'](https://user-images.githubusercontent.com/70437668/138619213-0dd8e5b1-932d-4881-b230-044e192b990b.jpg)
+
+Condition vs Year Built by Average Price
+
+![Condition vs Year Built by Average Price](https://user-images.githubusercontent.com/70437668/138619228-7ec49967-6a4f-4642-bd5d-8528874fe195.jpg)
+
+Bedrooms vs Average Price (using processed data)
+
+![Bedrooms vs Average Price (using processed data)](https://user-images.githubusercontent.com/70437668/138619238-e2c86a67-980a-402b-9c0e-14ae06e6bb16.jpg)
 
 
 
