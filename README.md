@@ -152,5 +152,10 @@ https://www.kaggle.com/ironfrown/deep-learning-house-price-prediction-keras?fbcl
 
 ![Bedrooms vs Average Price (using processed data)](https://user-images.githubusercontent.com/70437668/138619238-e2c86a67-980a-402b-9c0e-14ae06e6bb16.jpg)
 
+#### Dashboard - Average Sales Price
 
+![Dashboard - Average Sales Price](https://user-images.githubusercontent.com/70437668/139382173-b2014b11-9ba2-4844-9780-4c9c07c1c032.jpg)
 
+#### Dashboard - Countplot
+
+![Dashboard - Countplot](https://user-images.githubusercontent.com/70437668/139382179-d118ab90-6df6-4a54-8ade-c17204c986ce.jpg)
