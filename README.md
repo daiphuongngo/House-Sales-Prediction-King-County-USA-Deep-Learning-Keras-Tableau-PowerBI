@@ -8,11 +8,13 @@ Author: Phuong Dai Ngo
 
 Github: https://github.com/daiphuongngo
 
-Language and Tool:
+Language and Tools:
 
 - Python
 
 - Tableau
+
+- Power BI
 
 # Overview
 
