@@ -106,29 +106,53 @@ https://www.kaggle.com/ironfrown/deep-learning-house-price-prediction-keras?fbcl
 
 ![Bathrooms by Average Sales Price](https://user-images.githubusercontent.com/70437668/138617762-6160be9e-7ad9-433d-952c-164f2b1ab001.jpg)
 
+![Bathrooms by Average Sales Price](https://user-images.githubusercontent.com/70437668/140657414-887b6299-5f50-4be4-a2fd-5954267127a8.jpg)
+
+![Average Price by Bathrooms (Radar)](https://user-images.githubusercontent.com/70437668/140657417-3cc2ab88-e7f9-4a77-8e1d-9564d8127664.jpg)
+
 #### Bedrooms by Average Sales Price
 
 ![Bedrooms by Average Sales Price](https://user-images.githubusercontent.com/70437668/138617766-125889ea-e2c2-4df8-ab76-ddd8698acc52.jpg)
+
+![Bedrooms by Average Sales Price](https://user-images.githubusercontent.com/70437668/140657420-da3bfbc3-cb2e-48cb-8e55-eb46172b21ec.jpg)
+
+![Average Price by Bedrooms (Radar)](https://user-images.githubusercontent.com/70437668/140657424-4cb82cad-f7de-4cf3-a5e9-a3ae0a504d27.jpg)
 
 #### Conditions by Average Sales Price
 
 ![Conditions by Average Sales Price](https://user-images.githubusercontent.com/70437668/138617773-20c19bde-c2b9-477d-9e6d-50a91d0a74ab.jpg)
 
+![Condition vs Year Built by Average Price](https://user-images.githubusercontent.com/70437668/140657426-e7738f82-a391-45db-8df6-36cd390cbe87.jpg)
+
+![Average Price by Condition (Radar)](https://user-images.githubusercontent.com/70437668/140657431-1e15dda3-176e-4a93-ae61-4e00c38f91f0.jpg)
+
+![Conditions by Average Sales Price](https://user-images.githubusercontent.com/70437668/140657445-09c3e6c2-17e3-443f-8c1a-5e983620ef76.jpg)
+
 #### Countplot - Bathrooms
 
 ![Countplot - Bathrooms](https://user-images.githubusercontent.com/70437668/138617776-34aa097a-078b-4779-b605-3b21b5482e8c.jpg)
+
+![Countplot - Bathrooms](https://user-images.githubusercontent.com/70437668/140657458-20d6a981-35dc-4192-9693-3a71082e65d8.jpg)
 
 #### Countplot - Bedrooms
 
 ![Countplot - Bedrooms](https://user-images.githubusercontent.com/70437668/138617784-0bd5e8b8-95de-4762-a81e-588d20539ece.jpg)
 
+![Countplot - Bedrooms](https://user-images.githubusercontent.com/70437668/140657464-0ed14e6d-c7f1-4960-ac92-b8d341385d9c.jpg)
+
 #### Countplot - Conditions
 
 ![Countplot - Conditions](https://user-images.githubusercontent.com/70437668/138617790-22b0a18c-4cbc-4cb6-a82e-f861e641b77d.jpg)
 
+![Countplot - Conditions](https://user-images.githubusercontent.com/70437668/140657466-80c3722b-c66a-4ea9-9955-d37924fb99f3.jpg)
+
 #### Countplot - Floors
 
 ![Countplot - Floors](https://user-images.githubusercontent.com/70437668/138617794-1cc4ce0a-9ad2-404c-bad1-1a569726b6b4.jpg)
+
+![Countplot - Floors](https://user-images.githubusercontent.com/70437668/140657470-15085a43-b45b-4a81-8455-ed60265668fb.jpg)
+
+![Average Price by Floors (Radar)](https://user-images.githubusercontent.com/70437668/140657479-9e9aa027-0611-4aa4-95cb-a1b4939c51ad.jpg)
 
 #### Pearson Correlation Matrix
 
