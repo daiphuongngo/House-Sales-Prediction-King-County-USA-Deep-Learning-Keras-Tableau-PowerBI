@@ -156,19 +156,19 @@ https://www.kaggle.com/ironfrown/deep-learning-house-price-prediction-keras?fbcl
 
 #### Pearson Correlation Matrix
 
-![Pearson Correlation Matrix](https://user-images.githubusercontent.com/70437668/138619191-8016b599-daba-4e61-937b-9efc99362ac6.jpg)
+<img src="https://user-images.githubusercontent.com/70437668/138619191-8016b599-daba-4e61-937b-9efc99362ac6.jpg" width=50% height=50%>
 
 #### Distribution Plot of Year Built
 
-![Distribution Plot of Year Built](https://user-images.githubusercontent.com/70437668/138619199-89900f62-e349-40e0-8a2b-9e853366da7f.jpg)
+<img src="https://user-images.githubusercontent.com/70437668/138619199-89900f62-e349-40e0-8a2b-9e853366da7f.jpg" width=50% height=50%>
 
 #### Dashboard - 3 charts of Price
 
-![Dashboard - 3 charts of Price](https://user-images.githubusercontent.com/70437668/138619204-1115a0fb-f9ac-4440-83ae-3d6a26c144f5.jpg)
+<img src="https://user-images.githubusercontent.com/70437668/138619204-1115a0fb-f9ac-4440-83ae-3d6a26c144f5.jpg" width=50% height=50%>
 
 #### Boxplot - 'Price' & 'Index'
 
-![Boxplot - 'Price'   'Index'](https://user-images.githubusercontent.com/70437668/138619213-0dd8e5b1-932d-4881-b230-044e192b990b.jpg)
+<img src="https://user-images.githubusercontent.com/70437668/138619213-0dd8e5b1-932d-4881-b230-044e192b990b.jpg" width=50% height=50%>
 
 #### Condition vs Year Built by Average Price
 
