@@ -24,7 +24,7 @@ I had applied my basic learned knowledge and experience of Deep Learning using K
 
 https://www.kaggle.com/ironfrown/deep-learning-house-price-prediction-keras?fbclid=IwAR35xswXVg15TYDP4LmjvBW4KN0cK2Os0WOrqAZFUVgrJlFjaoedLvDGwo0
 
-### A. Preparation
+### A. Preparation (will be updated)
 
   #### A.1 Load some standard Python libraries
 
