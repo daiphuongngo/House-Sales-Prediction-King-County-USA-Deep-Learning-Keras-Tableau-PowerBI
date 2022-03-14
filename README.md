@@ -105,7 +105,43 @@ print('y_val_scaled shape: ', y_val_scaled.shape)
 
   #### E.1 Train Model Function
 
+```
+def train_model(model, epochs):
+  history = model.fit(X_train_scaled, y_train_scaled, epochs=10, verbose=0) # if epochs are larger, turn off verbose (verbose=1), then evaluate # https://stackoverflow.com/questions/47902295/what-is-the-use-of-verbose-in-keras-while-validating-the-model
+  print(model.evaluate(X_train_scaled, y_train_scaled))  
+  loss.extend(history.history['loss'])
+  acc.extend(history.history['accuracy'])
+```
+
   #### E.2 Create a Neural Network model
+```
+from sklearn.model_selection import GridSearchCV
+from tensorflow.keras.wrappers.scikit_learn import KerasRegressor # This is a Regression algorithm so we use KerasRegressor
+```
+
+```
+from tensorflow.keras.optimizers import Adam, RMSprop, SGD
+from tensorflow.keras.metrics import RootMeanSquaredError
+import matplotlib.pyplot as plt
+
+def create_model(optimizer='sgd', learning_rate=0.01, momentum=0.9):
+  model = Sequential()
+  model.add(Dense(128, activation='relu', input_shape=X_train.shape[1:]))
+  model.add(Dense(128, activation='relu')) # Underfit: increase node / layer (increase number of params) # Overfit: decrease node / layer (decrease number of params)
+  model.add(Dense(128, activation='relu'))
+  model.add(Dense(1, activation='linear'))
+  my_optim=None
+  if optimizer == 'adam':
+    # lưu ý trong trường hợp optimizer là adam sẽ không có tham số learning_rate
+    my_optim = Adam(learning_rate=learning_rate)
+  elif optimizer == 'sgd':
+    my_optim = SGD(learning_rate=learning_rate, momentum=momentum)
+  elif optimizer == 'rmsprop':
+    my_optim = RMSprop(learning_rate=learning_rate, momentum=momentum)
+  
+  model.compile(loss='mse', optimizer=my_optim, metrics=['mae',RootMeanSquaredError()])
+  return model
+```
 
   #### E.3 Apply GridSearchCV on the model
 
