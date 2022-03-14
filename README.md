@@ -64,11 +64,42 @@ https://www.kaggle.com/ironfrown/deep-learning-house-price-prediction-keras?fbcl
 
   #### D.2 Split the data
 
+```
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, shuffle=True, random_state=1612) 
+X_test, X_val, y_test, y_val = train_test_split(X_test, y_test,test_size=0.5, shuffle=True, random_state=1612) 
+```
+
   #### D.3 Check unique values
 
   #### D.4 Function of drawing history chart
 
   #### D.5 Scale the data
+```
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
+y_train = y_train.reshape(-1,1)
+y_test = y_test.reshape(-1,1)
+y_val = y_val.reshape(-1,1)
+print('y_train shape: ', y_train.shape)
+print('y_test shape: ', y_test.shape)
+print('y_val shape: ', y_val.shape)
+
+x_scale = StandardScaler()
+X_train_scaled = x_scale.fit_transform(X_train)
+X_test_scaled = x_scale.transform(X_test)
+X_val_scaled = x_scale.transform(X_val)
+print('X_train_scaled shape: ', X_train_scaled.shape)
+print('X_test_scaled shape: ', X_test_scaled.shape)
+print('X_val_scaled shape: ', X_val_scaled.shape)
+
+y_scale = StandardScaler()
+y_train_scaled = y_scale.fit_transform(y_train)
+y_test_scaled = y_scale.transform(y_test)
+y_val_scaled = y_scale.transform(y_val)
+print('y_train_scaled shape: ', y_train_scaled.shape)
+print('y_test_scaled shape: ', y_test_scaled.shape)
+print('y_val_scaled shape: ', y_val_scaled.shape)
+```
 
 ### E. Modelling
 
